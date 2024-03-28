@@ -149,7 +149,7 @@ while True:
     show_some(player_hand, dealer_hand)
 
     while playing:
-        hit_or_stand(deck, [player_hand])
+        hit_or_stand(deck, player_hand)
         show_some(player_hand, dealer_hand)
 
         if player_hand.value > 21:
